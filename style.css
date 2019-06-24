@@ -1,0 +1,86 @@
+.container
+{
+	width: 100%;
+	font-family: Tahoma;
+	text-align: center;
+}
+.head {
+	width: 100%;
+	height: 37px;
+	background: #212429;
+}
+.logo {
+	height: 110%;
+	margin-left: 30px;
+}
+.list	{
+	background: #212429;
+	color: white;
+	border-top: 3px solid #3a3839;
+	height: 35px;
+}
+.list p {
+	display: inline-block;
+	margin-left: 30px;
+	font-weight: bold;
+	margin-top: 6px;
+}
+.list a{
+	color: white;
+	text-decoration: none;
+}
+.list a:hover{
+	color: red;
+}
+.picture img {
+	height: 452px;
+	width: 100%;
+}
+.block {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 15px;
+	font-size: 9px;
+}
+.block h1{
+	margin-right: 46%;
+	margin-top: 5%;
+}
+.block img{
+	margin-left: 2%;
+	height: 70px;
+}
+.blocks {
+	width: 80%;
+	text-align: left;
+	margin-left: 5%;
+	margin-top: 45px;
+}
+.b{
+	display: flex;
+	margin-left: 14%;
+}
+.b2 .card{
+	margin-bottom: 3%;
+}
+.card{
+	width: 25%;
+	margin-left: 1%;
+	margin-bottom: 6%;
+	font-weight: bold;
+}
+.card p{
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 10px;
+}
+.card img{
+	-webkit-box-shadow: -2px 16px 23px -3px rgba(0,0,0,0.78); 
+	box-shadow: -2px 16px 23px -3px rgba(0,0,0,0.78);
+	width: 100%;
+	height: 83%;
+	margin-left: 0%;
+}
+.card img:hover{
+	border: 11px outset #FFDD33;
+}
